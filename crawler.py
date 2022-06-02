@@ -38,5 +38,5 @@ for row in table:
 
 print(t)
 
-print(cb + " is leading " + ck + " by " + str(leading_vote))
+print('\033[92m' + cb + " is leading " + ck + " by " + str(leading_vote))
 print("Total vote of " + ck + " & " + cs + " : " + str(total_opposition_vote))
